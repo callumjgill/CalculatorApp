@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla TypeScript Calcualtor App</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <div class="section-calculatorOutput">
+      <input type="number" id="calculatorOutput" readonly />
+    </div>
+    <div class="section-calculatorInput">
+      <!-- Row 1 -->
+      <div class="inputRow">
+        <button id="clearBtn">C</button>
+        <button id="divideBtn">&divide;</button>
+      </div>
+      <!-- Row 2 -->
+      <div class="inputRow">
+        <button id="numberBtn-7">7</button>
+        <button id="numberBtn-8">8</button>
+        <button id="numberBtn-9">9</button>
+        <button id="timesBtn">&times;</button>
+      </div>
+      <!-- Row 3 -->
+      <div class="inputRow">
+        <button id="numberBtn-4">4</button>
+        <button id="numberBtn-5">5</button>
+        <button id="numberBtn-6">6</button>
+        <button id="minusBtn">&minus;</button>
+      </div>
+      <!-- Row 4 -->
+      <div class="inputRow">
+        <button id="numberBtn-1">1</button>
+        <button id="numberBtn-2">2</button>
+        <button id="numberBtn-3">3</button>
+        <button id="plusBtn">&plus;</button>
+      </div>
+      <!-- Row 5 -->
+      <div class="inputRow">
+        <button id="numberBtn-0">0</button>
+        <button id="decimalBtn">.</button>
+        <button id="equalsBtn">&equals;</button>
+      </div>
+    </div>
+  </body>
 </html>
